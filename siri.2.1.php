@@ -3,7 +3,7 @@
 /*
  * Belajar Curl : Siri 2
  * Contoh 1
- * 
+ *
  * follow location
  * Dengan enablekan CURLOPT_FOLLOWLOCATION , curl akan follow url location sehingga
  * location terakhir.
@@ -22,9 +22,4 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "http://www.google.com/");
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
 curl_exec($ch);
-
-
-echo '<pre>';
-        print_r(curl_getinfo($ch));
-echo '</pre>';
 curl_close($ch);
