@@ -25,7 +25,10 @@
                         case 'POST':
                             $data = $_POST;
                             break;
-                        default:
+                        case 'PUT':
+                            parse_str(file_get_contents('php://input'), $data);
+                            break;
+                        case 'DELETE':
                             parse_str(file_get_contents('php://input'), $data);
                             break;
                     }
