@@ -2,7 +2,7 @@
 
 /*
  * Belajar Curl : Siri 3
- * Contoh 3
+ * Contoh 2
  *
  * http get
  *
