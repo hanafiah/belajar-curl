@@ -4,7 +4,7 @@
         <title>Simple REST</title>
         <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
         <link href="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-    </head
+    </head>
     <body>
         <div class="container">
             <div class="row">
