@@ -8,7 +8,7 @@
  *
  */
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "http://rnd.local/curl/ibnuyahya/site1/process.php");
+curl_setopt($ch, CURLOPT_URL, "http://lab.ibnuyahya.com/belajar-curl/site1/process.php");
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
 curl_setopt($ch, CURLOPT_POST, TRUE);
 $data = array(

@@ -15,7 +15,7 @@
  *
  */
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "http://rnd.local/curl/ibnuyahya/site1/welcome_cookies.php");
+curl_setopt($ch, CURLOPT_URL, "http://lab.ibnuyahya.com/belajar-curl/site1/welcome_cookies.php");
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 
