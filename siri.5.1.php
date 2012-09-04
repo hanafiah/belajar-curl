@@ -6,6 +6,9 @@
  *
  * Menggunakan cookies dengan curl
  *
+ * perhatian
+ *      pastikan file cookie_file.txt adalah writable
+ *
  */
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "http://lab.ibnuyahya.com/belajar-curl/site1/process.php");
